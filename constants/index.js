@@ -1,4 +1,4 @@
-export const FIELD_TYPES = [
+const FIELD_TYPES = [
     {
         name: 'Text Field'
     },
@@ -33,3 +33,5 @@ export const FIELD_TYPES = [
         name: 'Multiple User Field'
     },
 ]
+
+module.exports = FIELD_TYPES;
